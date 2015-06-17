@@ -5,7 +5,7 @@ SoftwareSerial mySerial(6, 7); // TX HC-06 , RX HC-06 voltage divider
 void setup()  
 {
  // Open serial communications and wait for port to open:
-  Serial.begin(9600); // velocità seriale
+  Serial.begin(9600); // frequenza alla quale la seriale gli scrive
   
   
    while (!Serial) {
@@ -16,7 +16,7 @@ void setup()
   Serial.println("Goodnight moon!");
 
   // set the data rate for the SoftwareSerial port
-  mySerial.begin(19200); //velocità risposta BT
+  mySerial.begin(19200); //frequenza alla quale risponde
   mySerial.println("Hello, world?");
 }
 
