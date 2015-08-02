@@ -5,4 +5,4 @@ Ogni cartella contiene un file fritzing come schematico di montaggio ed il codic
 
 *Link al progetto:* http://goo.gl/uEhFKl
 
-**Engineer DaveCalaway.**
+*Engineer DaveCalaway.*
